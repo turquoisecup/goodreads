@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 
 .rating{
@@ -71,5 +72,12 @@ p{
 }
 .wrapper{
     display: flex;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
 }
 
