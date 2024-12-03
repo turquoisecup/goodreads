@@ -6,49 +6,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    
-
-
-    <div class="control" id="search">
-        <input class="input is-hovered" type="text" placeholder="Hovered input" />
-      </div>
-      <div class="dropdown">
-        <div class="dropdown-trigger">
-          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>Click me</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content">
-            <a href="#" class="dropdown-item"> Overview </a>
-            <a href="#" class="dropdown-item"> Modifiers </a>
-            <a href="#" class="dropdown-item"> Grid </a>
-            <a href="#" class="dropdown-item"> Form </a>
-            <a href="#" class="dropdown-item"> Elements </a>
-            <a href="#" class="dropdown-item"> Components </a>
-            <a href="#" class="dropdown-item"> Layout </a>
-            <hr class="dropdown-divider" />
-            <a href="#" class="dropdown-item"> More </a>
-          </div>
-        </div>
-      </div>
-      <br>
-      <table class="booksy">
-        <tr>
-            <img class="Dorian" src="https://prodimage.images-bn.com/pimages/9781435171466_p0_v4_s1200x630.jpg" ></img>
+  
+      <div class="section">
+        <h1>Search</h1>
+        <input id="text-input" class="input" type="text">
+        <div id="text-output">       
+        <img id="Wilde" class="z" src="https://prodimage.images-bn.com/pimages/9781435171466_p0_v4_s1200x630.jpg" alt="Picture of Dorian Gray">
+        <img id="Suzuki" class="z" src="https://m.media-amazon.com/images/I/9159FoBScxL.jpg" alt="Ring">
+        <img id="Lee" class="z" src="https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UF1000,1000_QL80_.jpg" alt="To Kill a Mockingbird">
+        <img id="Orwell" class="z" src="https://bookshelfthomasville.com/cdn/shop/files/1984.jpg?v=1695863157" alt="1984">
+        <img id="Fitzgerald" class="z" src="https://m.media-amazon.com/images/I/81QuEGw8VPL.jpg" alt="the great gatsby">
+        <img id="Kafka" class="z" src="https://cdn.kobo.com/book-images/aa67b2a3-3276-46d3-b333-12c5569ae3f5/353/569/90/False/metamorphosis-217.jpg" alt="metamorphosis">
         
-        </tr>
-        <tr>
-            <img class="Ring" src="https://m.media-amazon.com/images/I/9159FoBScxL.jpg" ></img>
-        </tr>
-        <tr>
-            <img class="Birdy" src="https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UF1000,1000_QL80_.jpg"  ></img>
-        </tr>
-      </table>
+        <div id="sr-continent-alert" aria-live="polite" aria-atomic="true" class="sr-only">
+        <!-- initially blank -->
+        </div>
+        </div>
+        </div>
+        
+
+   <script src="books.js"></script>
 </body>
 </html>
